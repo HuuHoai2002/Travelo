@@ -1,0 +1,241 @@
+/* Mobile and Tablet */
+@media (max-width: 1023px) {
+  .footer__about-company {
+    margin-top: 20px;
+  }
+  .footer__image {
+    margin-top: 20px;
+  }
+  .footer__image-social {
+    margin-left: 0;
+  }
+  .footer__heading:last-child {
+    margin-left: 7.5px;
+  }
+}
+/*Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+  :root {
+    --header-height: 80px;
+    --btn-input-height: 40px;
+  }
+  /* Header */
+  .header {
+    position: fixed;
+    height: var(--header-height);
+    z-index: 10;
+    background-color: var(--white-color);
+  }
+  .header__logo {
+    width: 180px;
+  }
+  .header__navbar-list {
+    align-items: center;
+    padding: 0;
+  }
+  .header__contact {
+    display: none;
+  }
+  .header__navbar-link {
+    font-size: 1.6rem;
+    padding: 10px 10px;
+  }
+  /* Slider */
+  .slider {
+    padding-top: var(--header-height);
+  }
+  /* Search */
+  .search {
+    height: 180px;
+  }
+  .search__heading {
+    margin-bottom: 50px;
+  }
+  .input {
+    width: 150px;
+    height: var(--btn-input-height);
+  }
+  .search__input {
+    margin: 10px 0;
+  }
+  .search__input-icon {
+    line-height: var(--btn-input-height);
+  }
+  .search__dropdown {
+    width: 150px;
+  }
+  .search__btn {
+    margin-left: 20px;
+    width: 130px;
+    height: var(--btn-input-heigt);
+    line-height: var(--btn-input-height);
+  }
+  /* Destination */
+  .destination__item {
+    margin-bottom: 15px;
+  }
+  /* Banner */
+  .banner {
+    padding: 40px 0;
+  }
+  .banner__btn {
+    width: 30%;
+  }
+}
+/* Mobile */
+@media (max-width: 739px) {
+  :root {
+    --header-height: 60px;
+    --btn-input-height: 50px;
+  }
+  .header {
+    position: fixed;
+    height: var(--header-height);
+    z-index: 20;
+    background-color: var(--white-color);
+    padding: 5px;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .header__logo {
+    width: 180px;
+  }
+  .header__navbar-list {
+    display: none;
+  }
+  .header__contact {
+    display: none;
+  }
+  .header__navbar-link {
+    font-size: 1.6rem;
+    padding: 10px 10px;
+  }
+  .header__mobile {
+    display: block;
+    z-index: -1;
+  }
+  .header__mobile-content {
+    z-index: -1;
+  }
+  .header__mobile-active {
+    display: none;
+  }
+  /* Slider */
+  .slider {
+    padding-top: var(--header-height);
+  }
+  .slider__image {
+    height: 50vh;
+  }
+  .slider__content-heading {
+    font-size: 4.2rem;
+  }
+  .slider__content-info {
+    margin: 20px 0;
+  }
+  .slider__button {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+  }
+  /* Search */
+  .search {
+    height: 380px;
+  }
+  .search__heading {
+    margin-bottom: 50px;
+    padding: 0 10px;
+  }
+  .input {
+    width: 100%;
+    height: var(--btn-input-height);
+    margin: 8px 0;
+  }
+  .search__input {
+    margin: 10px 0;
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  .search__input-icon {
+    line-height: var(--btn-input-height);
+  }
+  .search__dropdown {
+    width: 100%;
+  }
+  .search__btn {
+    width: 150px;
+    height: var(--btn-input-heigt);
+    line-height: var(--btn-input-height);
+    margin: 8px 0;
+  }
+  .destination {
+    padding: 50px 0;
+  }
+  .destination__item {
+    margin-bottom: 15px;
+  }
+  .banner__content {
+    align-items: center;
+  }
+  .banner__content-heading {
+    text-align: center;
+  }
+  .banner__content-info {
+    text-align: center;
+  }
+  .banner__subscribe {
+    width: 100%;
+    height: 120px;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  .banner__btn {
+    width: 100%;
+    height: 50px;
+  }
+  .banner__input {
+    width: 100%;
+    margin-right: 0;
+  }
+  .place {
+    padding: 50px 0;
+  }
+  .enjoy__video {
+    padding: 70px 0;
+  }
+  .enjoy__video-wrap-heading {
+    font-size: 4.2rem;
+    margin-bottom: 30px;
+  }
+  .variation {
+    padding: 50px 0;
+  }
+  .variation__item-info {
+    padding: 0;
+  }
+  .recent__trip-content {
+    margin-bottom: 30px;
+  }
+  .recent__trip-content-heading {
+    font-size: 3rem;
+  }
+  .footer__content {
+    padding: 50px 0;
+  }
+  .footer__copyright-heading {
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.4rem;
+  }
+}
+@media (min-width: 980px) and (max-width: 1140px) {
+  .header__contact {
+    display: none;
+  }
+  .header {
+    justify-content: space-between;
+  }
+  .search__heading {
+    font-size: 2.2rem;
+  }
+}

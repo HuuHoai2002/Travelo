@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/themify-icons/themify-icons.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/fontawesome-free-5.15.4-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/Css/reset.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="./assets/Css/base.css" />
+    <link rel="stylesheet" href="./assets/Css/grid.css" />
+    <link rel="stylesheet" href="./assets/Css/style.css" />
+    <link rel="stylesheet" href="./assets/Css/responsive.css" />
+    <title>Travelo</title>
+  </head>
+  <body>
+    <div class="main__app">
+      <!-- Header -->
+      <header class="header">
+        <div class="header__logo">
+          <img src="./assets/Img/Icons/Logo.png" alt="Logo" />
+        </div>
+        <div class="header__navbar">
+          <ul class="header__navbar-list">
+            <li class="header__navbar-item">
+              <a href="#" class="header__navbar-link">Home</a>
+            </li>
+            <li class="header__navbar-item">
+              <a href="#" class="header__navbar-link">About</a>
+            </li>
+            <li class="header__navbar-item">
+              <a href="#" class="header__navbar-link">Destination</a>
+            </li>
+            <li class="header__navbar-item">
+              <a href="#" class="header__navbar-link"
+                >Pages
+                <i class="ti-angle-down header__navbar-icon"></i>
+              </a>
+              <div class="header__navbar-dropdown">
+                <ul class="header__navbar-dropdown-list">
+                  <li class="header__navbar-dropdown-item">
+                    <a href="#" class="header__navbar-dropdown-link"
+                      >Destinations Details</a
+                    >
+                  </li>
+                  <li class="header__navbar-dropdown-item">
+                    <a href="#" class="header__navbar-dropdown-link"
+                      >Elements</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="header__navbar-item">
+              <a href="#" class="header__navbar-link"
+                >Blog
+                <i class="ti-angle-down header__navbar-icon"></i>
+              </a>
+              <div class="header__navbar-dropdown">
+                <ul class="header__navbar-dropdown-list">
+                  <li class="header__navbar-dropdown-item">
+                    <a href="#" class="header__navbar-dropdown-link">Blog</a>
+                  </li>
+                  <li class="header__navbar-dropdown-item">
+                    <a href="#" class="header__navbar-dropdown-link"
+                      >Single Blog</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="header__navbar-item">
+              <a href="#" class="header__navbar-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header__contact">
+          <div class="header__contact-phone">
+            <span class="header__contact-phone-number">
+              <i class="header__contact-phone-icon fas fa-phone-alt"></i>
+              <span>10(256)-928 256</span>
+            </span>
+          </div>
+          <div class="header__contact-social">
+            <a href="#" class="header__contact-social-link">
+              <i class="fab fa-instagram header__contact-social-icon"></i>
+            </a>
+            <a href="#" class="header__contact-social-link">
+              <i class="fab fa-facebook header__contact-social-icon"></i>
+            </a>
+            <a href="#" class="header__contact-social-link">
+              <i class="fab fa-linkedin header__contact-social-icon"></i>
+            </a>
+            <a href="#" class="header__contact-social-link">
+              <i class="fab fa-google header__contact-social-icon"></i>
+            </a>
+          </div>
+        </div>
+        <input type="checkbox" id="active" class="header__mobile-active">
+        <label for="active" class="header__overlay">   
+        </label>
+        <div class="header__mobile">
+          <label for="active" class="header__mobile-menu">
+            <i class="ti-align-justify header__mobile-icon"></i>
+          </label>
+          <div class="header__mobile-content">
+            <ul class="header__mobile-list">
+              <li class="header__mobile-item">
+                <a href="#" class="header__mobile-link">Home</a>
+              </li>
+              <li class="header__mobile-item">
+                <a href="#" class="header__mobile-link">About</a>
+              </li>
+              <li class="header__mobile-item">
+                <a href="#" class="header__mobile-link">Destination</a>
+              </li>
+              <li class="header__mobile-item">
+                <a href="#" class="header__mobile-link">Blog</a>
+              </li>
+              <li class="header__mobile-item">
+                <a href="#" class="header__mobile-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <!-- Slider -->
+      <div class="slider">
+        <div class="slider__item">
+          <div
+            class="slider__image"
+            style="background-image: url(./assets/Img/Slider/Sld1.png)"
+          >
+            <div class="grid wide">
+              <div class="row align-item-center">
+                <div class="col l-12 m-12 c-12">
+                  <div class="slider__content">
+                    <h3 class="slider__content-heading">Indonesia</h3>
+                    <span class="slider__content-info"
+                      >Pixel perfect design with awesome contents</span
+                    >
+                    <div class="slider__button">Explonow</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider__item">
+          <div
+            class="slider__image"
+            style="background-image: url(./assets/Img/Slider/Sld2.png)"
+          >
+            <div class="grid wide">
+              <div class="row align-item-center">
+                <div class="col l-12 m-12 c-12">
+                  <div class="slider__content">
+                    <h3 class="slider__content-heading">Switzarland</h3>
+                    <span class="slider__content-info"
+                      >Pixel perfect design with awesome contents</span
+                    >
+                    <div class="slider__button">Explonow</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider__item">
+          <div
+            class="slider__image"
+            style="background-image: url(./assets/Img/Slider/Sld3.png)"
+          >
+            <div class="grid wide">
+              <div class="row align-item-center">
+                <div class="col l-12 m-12 c-12">
+                  <div class="slider__content">
+                    <h3 class="slider__content-heading">Australia</h3>
+                    <span class="slider__content-info"
+                      >Pixel perfect design with awesome contents</span
+                    >
+                    <div class="slider__button">Explonow</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Search -->
+      <div class="search">
+        <div class="grid wide">
+          <div class="row">
+            <div class="col l-3 m-12 c-12">
+              <span class="search__heading">Where you want to go?</span>
+            </div>
+            <div class="col l-9 m-12 c-12">
+              <div class="search__input">
+                <input
+                  type="text"
+                  class="search__input-add input"
+                  placeholder="Where to go?"
+                  required
+                />
+                <input
+                  type="text"
+                  class="search__input-date input"
+                  placeholder="Date"
+                  required
+                />
+                <div class="input search__input-select">
+                  <i class="ti-angle-down search__input-icon"></i>
+                  <div class="search__dropdown">
+                    <ul class="search__dropdown-list">
+                      <li class="search__dropdown-item">
+                        <a href="#" class="search__dropdown-link"
+                          >Travel type</a
+                        >
+                      </li>
+                      <li class="search__dropdown-item">
+                        <a href="#" class="search__dropdown-link"
+                          >Some option</a
+                        >
+                      </li>
+                      <li class="search__dropdown-item">
+                        <a href="#" class="search__dropdown-link"
+                          >Another option</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <a href="#" class="btn search__btn">Search</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Destination -->
+      <div class="destination">
+        <div class="grid wide">
+          <div class="row">
+            <div class="col l-6 l-o-3">
+              <div class="destination__content">
+                <h3 class="destination__content-heading">
+                  Popular Destination
+                </h3>
+                <span class="destination__content-info"
+                  >Suffered alteration in some form, by injected humour or good
+                  day randomised booth anim 8-bit hella wolf moon beard
+                  words.</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col l-4 m-6 c-12">
+              <div class="destination__item">
+                <img
+                  src="./assets/Img/Destination/Image1.png"
+                  alt=""
+                  class="destination__img"
+                />
+                <div class="destination__address">
+                  <h3 class="destination__address-info">Italy</h3>
+                  <a href="#" class="destination__address-link__place"
+                    >07 Places</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col l-4 m-6 c-12">
+              <div class="destination__item">
+                <img
+                  src="./assets/Img/Destination/Image2.png"
+                  alt=""
+                  class="destination__img"
+                />
+                <div class="destination__address">
+                  <h3 class="destination__address-info">Brazil</h3>
+                  <a href="#" class="destination__address-link__place"
+                    >03 Places</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col l-4 m-6 c-12">
+              <div class="destination__item">
+                <img
+                  src="./assets/Img/Destination/Image3.png"
+                  alt=""
+                  class="destination__img"
+                />
+                <div class="destination__address">
+                  <h3 class="destination__address-info">America</h3>
+                  <a href="#" class="destination__address-link__place"
+                    >10 Places</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col l-4 m-6 c-12">
+              <div class="destination__item">
+                <img
+                  src="./assets/Img/Destination/Image4.png"
+                  alt=""
+                  class="destination__img"
+                />
+                <div class="destination__address">
+                  <h3 class="destination__address-info">Nepal</h3>
+                  <a href="#" class="destination__address-link__place"
+                    >02 Places</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col l-4 m-6 c-12">
+              <div class="destination__item">
+                <img
+                  src="./assets/Img/Destination/Image5.png"
+                  alt=""
+                  class="destination__img"
+                />
+                <div class="destination__address">
+                  <h3 class="destination__address-info">Maldives</h3>
+                  <a href="#" class="destination__address-link__place"
+                    >02 Places</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col l-4 m-6 c-12">
+              <div class="destination__item">
+                <img
+                  src="./assets/Img/Destination/Image6.png"
+                  alt=""
+                  class="destination__img"
+                />
+                <div class="destination__address">
+                  <h3 class="destination__address-info">Indonesia</h3>
+                  <a href="#" class="destination__address-link__place"
+                    >05 Places</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Banner -->
+      <div
+        class="banner"
+        style="background-image: url(./assets/Img/Banner/Bn.png)"
+      >
+        <div class="grid wide z-index">
+          <div class="row align-item-center">
+            <div class="col l-10 c-12">
+              <div class="row">
+                <div class="col l-5">
+                  <div class="banner__content">
+                    <h3 class="banner__content-heading">
+                      Subscribe Our Newsletter
+                    </h3>
+                    <p class="banner__content-info"
+                      >Subscribe newsletter to get offers and about new places
+                      to discover.</p
+                    >
+                  </div>
+                </div>
+                <div class="col l-7 m-10 c-12">
+                  <div class="banner__subscribe">
+                    <input
+                      type="email"
+                      class="banner__input"
+                      placeholder="Your mail"
+                      required
+                    />
+                    <a href="#" class="btn banner__btn">Subscribe</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Places -->
+      <div class="place">
+        <div class="grid wide">
+          <div class="row">
+            <div class="col l-6 l-o-3">
+              <div class="place__content">
+                <h3 class="place__content-heading">Popular Places</h3>
+                <span class="place__content-info"
+                  >Suffered alteration in some form, by injected humour or good
+                  day randomised booth anim 8-bit hella wolf moon beard
+                  words.</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col l-4 m-6 c-12">
+              <div class="place__item-content">
+                <div class="place__item-img">
+                  <img src="./assets/Img/Places/Image1.png" alt="" />
+                  <div class="place__item-price">$500</div>
+                </div>
+                <div class="place__item-info">
+                  <h4 class="place__item-info-heading">California</h4>
+                  <span class="place__item-info-add"
+                    >United State of America</span
+                  >
+                  <div class="place__item-info_review">
+                    <span class="place__item-info_review-icon">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <span class="place__item-info_review-quantity"
+                        >(20) Review</span
+                      >
+                    </span>
+                    <span class="place__item-info_review-days">
+                      <i class="far fa-clock"></i>
+                      5 Days
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col l-4 m-6 c-12">
+              <div class="place__item-content">
+                <div class="place__item-img">
+                  <img src="./assets/Img/Places/Image2.png" alt="" />
+                  <div class="place__item-price">$600</div>
+                </div>
+                <div class="place__item-info">
+                  <h4 class="place__item-info-heading">Korola Megna</h4>
+                  <span class="place__item-info-add"
+                    >United State of America</span
+                  >
+                  <div class="place__item-info_review">
+                    <span class="place__item-info_review-icon">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <span class="place__item-info_review-quantity"
+                        >(20) Review</span
+                      >
+                    </span>
+                    <span class="place__item-info_review-days">
+                      <i class="far fa-clock"></i>
+                      5 Days
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col l-4 m-6 c-12">
+              <div class="place__item-content">
+                <div class="place__item-img">
+                  <img src="./assets/Img/Places/Image3.png" alt="" />
+                  <div class="place__item-price">$500</div>
+                </div>
+                <div class="place__item-info">
+                  <h4 class="place__item-info-heading">London</h4>
+                  <span class="place__item-info-add"
+                    >United State of America</span
+                  >
+                  <div class="place__item-info_review">
+                    <span class="place__item-info_review-icon">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <span class="place__item-info_review-quantity"
+                        >(90) Review</span
+                      >
+                    </span>
+                    <span class="place__item-info_review-days">
+                      <i class="far fa-clock"></i>
+                      7 Days
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col l-4 m-6 c-12">
+              <div class="place__item-content">
+                <div class="place__item-img">
+                  <img src="./assets/Img/Places/Image4.png" alt="" />
+                  <div class="place__item-price">$900</div>
+                </div>
+                <div class="place__item-info">
+                  <h4 class="place__item-info-heading">Miami Beach</h4>
+                  <span class="place__item-info-add"
+                    >United State of America</span
+                  >
+                  <div class="place__item-info_review">
+                    <span class="place__item-info_review-icon">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <span class="place__item-info_review-quantity"
+                        >(45) Review</span
+                      >
+                    </span>
+                    <span class="place__item-info_review-days">
+                      <i class="far fa-clock"></i>
+                      4 Days
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col l-4 m-6 c-12">
+              <div class="place__item-content">
+                <div class="place__item-img">
+                  <img src="./assets/Img/Places/Image5.png" alt="" />
+                  <div class="place__item-price">$700</div>
+                </div>
+                <div class="place__item-info">
+                  <h4 class="place__item-info-heading">California</h4>
+                  <span class="place__item-info-add"
+                    >United State of America</span
+                  >
+                  <div class="place__item-info_review">
+                    <span class="place__item-info_review-icon">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <span class="place__item-info_review-quantity"
+                        >(74) Review</span
+                      >
+                    </span>
+                    <span class="place__item-info_review-days">
+                      <i class="far fa-clock"></i>
+                      6 Days
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col l-4 m-6 c-12">
+              <div class="place__item-content">
+                <div class="place__item-img">
+                  <img src="./assets/Img/Places/Image6.png" alt="" />
+                  <div class="place__item-price">$800</div>
+                </div>
+                <div class="place__item-info">
+                  <h4 class="place__item-info-heading">Saintmartine Iceland</h4>
+                  <span class="place__item-info-add"
+                    >United State of America</span
+                  >
+                  <div class="place__item-info_review">
+                    <span class="place__item-info_review-icon">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <span class="place__item-info_review-quantity"
+                        >(48) Review</span
+                      >
+                    </span>
+                    <span class="place__item-info_review-days">
+                      <i class="far fa-clock"></i>
+                      7 Days
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col l-12 m-12 c-12">
+              <div class="place__more">
+                <div class="btn place__btn">More Places</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Video -->
+      <div
+        class="enjoy__video"
+        style="background-image: url('./assets/Img/Video/Video_bg.png')"
+      >
+        <div class="grid">
+          <div class="row">
+            <div class="col l-12 m-12 c-12">
+              <div class="enjoy__video-wrap">
+                <h3 class="enjoy__video-wrap-heading">Enjoy Video</h3>
+                <div class="enjoy__video-wrap-play">
+                  <a
+                    class="enjoy__video-wrap-button"
+                    href="https://www.youtube.com/watch?v=f59dDEk57i0"
+                  >
+                    <i class="fas fa-play enjoy__video-wrap-icon"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Variations -->
+      <div class="variation">
+        <div class="grid wide">
+          <div class="row">
+            <div class="col l-4 m-6 c-12">
+              <div class="variation__item">
+                <div class="variation__item-img">
+                  <img
+                    src="./assets/Img/SvgIcons/Image1.svg"
+                    alt=""
+                    class="variation__item-icon"
+                  />
+                </div>
+                <h3 class="variation__item-heading">Comfortable Journey</h3>
+                <p class="variation__item-info">
+                  A wonderful serenity has taken to the possession of my entire
+                  soul.
+                </p>
+              </div>
+            </div>
+            <div class="col l-4 m-6 c-12">
+              <div class="variation__item">
+                <div class="variation__item-img">
+                  <img
+                    src="./assets/Img/SvgIcons/Image2.svg"
+                    alt=""
+                    class="variation__item-icon"
+                  />
+                </div>
+                <h3 class="variation__item-heading">Luxuries Hotel</h3>
+                <p class="variation__item-info">
+                  A wonderful serenity has taken to the possession of my entire
+                  soul.
+                </p>
+              </div>
+            </div>
+            <div class="col l-4 m-6 c-12">
+              <div class="variation__item">
+                <div class="variation__item-img">
+                  <img
+                    src="./assets/Img/SvgIcons/Image3.svg"
+                    alt=""
+                    class="variation__item-icon"
+                  />
+                </div>
+                <h3 class="variation__item-heading">Travel Guide</h3>
+                <p class="variation__item-info">
+                  A wonderful serenity has taken to the possession of my entire
+                  soul.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Review -->
+      <div class="slider__review">
+        <div class="review">
+          <div class="grid wide">
+            <div class="row">
+              <div class="col l-8 l-o-2">
+                <div class="review__content">
+                  <div class="review__content-img">
+                    <img src="./assets/Img/Review/Image1.png" alt="" />
+                  </div>
+                  <p class="review__content-info">
+                    "Working in conjunction with humanitarian aid agencies, we
+                    have supported programmes to help alleviate human suffering.
+                  </p>
+                  <h3 class="review__content-name">- Micky Mouse</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="review">
+          <div class="grid wide">
+            <div class="row">
+              <div class="col l-8 l-o-2">
+                <div class="review__content">
+                  <div class="review__content-img">
+                    <img src="./assets/Img/Review/Image1.png" alt="" />
+                  </div>
+                  <p class="review__content-info">
+                    "Working in conjunction with humanitarian aid agencies, we
+                    have supported programmes to help alleviate human suffering.
+                  </p>
+                  <h3 class="review__content-name">- Tom Mouse</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="review">
+          <div class="grid wide">
+            <div class="row">
+              <div class="col l-8 l-o-2">
+                <div class="review__content">
+                  <div class="review__content-img">
+                    <img src="./assets/Img/Review/Image1.png" alt="" />
+                  </div>
+                  <p class="review__content-info">
+                    "Working in conjunction with humanitarian aid agencies, we
+                    have supported programmes to help alleviate human suffering.
+                  </p>
+                  <h3 class="review__content-name">- Jerry Mouse</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Recent Trips -->
+      <div class="recent__trip">
+        <div class="grid wide">
+          <div class="row">
+            <div class="col l-6 l-o-3 m-6 m-o-3 c-6 c-o-3">
+              <div class="recent__trip-content">
+                <h3 class="recent__trip-content-heading">Recent Trips</h3>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col l-4 m-6 c-12">
+              <div class="recent__trip-item">
+                <div class="recent__trip-item-img">
+                  <img src="./assets/Img/Recent/Image1.png" alt="" />
+                </div>
+                <div class="recent__trip-item-info">
+                  <span class="recent__trip-item-time">Oct 12, 2019</span>
+                  <h3 class="recent__trip-item-add">
+                    Journeys Are Best Measured In New Friends
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="col l-4 m-6 c-12">
+              <div class="recent__trip-item">
+                <div class="recent__trip-item-img">
+                  <img src="./assets/Img/Recent/Image2.png" alt="" />
+                </div>
+                <div class="recent__trip-item-info">
+                  <span class="recent__trip-item-time">Oct 12, 2019</span>
+                  <h3 class="recent__trip-item-add">
+                    Journeys Are Best Measured In New Friends
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="col l-4 m-6 c-12">
+              <div class="recent__trip-item">
+                <div class="recent__trip-item-img">
+                  <img src="./assets/Img/Recent/Image3.png" alt="" />
+                </div>
+                <div class="recent__trip-item-info">
+                  <span class="recent__trip-item-time">Oct 12, 2019</span>
+                  <h3 class="recent__trip-item-add">
+                    Journeys Are Best Measured In New Friends
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer__content">
+          <div class="grid wide">
+            <div class="row">
+              <div class="col l-4 m-6 c-12">
+                <div class="footer__contact">
+                  <img
+                    src="./assets/Img/Icons/footer__logo.png"
+                    alt=""
+                    class="footer__contact-img"
+                  />
+                  <div class="footer__contact-info">
+                    <p>
+                      5th flora, 700/D kings road, green <br />
+                      lane New York-1782
+                    </p>
+                    <a href="#" class="footer__contact-info-link"
+                      >+10 367 826 2567 <br />
+                    </a>
+                    <a href="#" class="footer__contact-info-link">
+                      contact@carpenter.com</a
+                    >
+                  </div>
+                  <div class="footer__contact-social">
+                    <i class="fab fa-facebook footer__contact-social-icon"></i>
+                    <i class="fab fa-twitter footer__contact-social-icon"></i>
+                    <i class="fab fa-instagram footer__contact-social-icon"></i>
+                    <i class="fab fa-pinterest footer__contact-social-icon"></i>
+                    <i class="fab fa-youtube footer__contact-social-icon"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col l-2 m-6 c-12">
+                <div class="footer__about-company">
+                  <h3 class="footer__heading">Company</h3>
+                  <ul class="footer__list">
+                    <li class="footer__item">
+                      <a href="#" class="footer__link">Pricing</a>
+                    </li>
+                    <li class="footer__item">
+                      <a href="#" class="footer__link">About</a>
+                    </li>
+                    <li class="footer__item">
+                      <a href="#" class="footer__link">Gallery</a>
+                    </li>
+                    <li class="footer__item">
+                      <a href="#" class="footer__link">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col l-3 m-6 c-12">
+                <div class="footer__about-company">
+                  <h3 class="footer__heading">Popular Destination</h3>
+                  <div class="footer__about-content">
+                    <ul class="footer__list">
+                      <li class="footer__item">
+                        <a href="#" class="footer__link">Indonesia</a>
+                      </li>
+                      <li class="footer__item">
+                        <a href="#" class="footer__link">India</a>
+                      </li>
+                      <li class="footer__item">
+                        <a href="#" class="footer__link">Italy</a>
+                      </li>
+                      <li class="footer__item">
+                        <a href="#" class="footer__link">France</a>
+                      </li>
+                    </ul>
+                    <ul class="footer__list">
+                      <li class="footer__item">
+                        <a href="#" class="footer__link">America</a>
+                      </li>
+                      <li class="footer__item">
+                        <a href="#" class="footer__link">Switzerland</a>
+                      </li>
+                      <li class="footer__item">
+                        <a href="#" class="footer__link">Canada</a>
+                      </li>
+                      <li class="footer__item">
+                        <a href="#" class="footer__link">England</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col l-3 m-6 c-12">
+                <div class="footer__image">
+                  <h3 class="footer__heading">Instagram</h3>
+                </div>
+                <div class="footer__image-social">
+                  <div class="footer__image-social__item">
+                    <img src="./assets/Img/Footer_img/Image1.png" alt="" />
+                  </div>
+                  <div class="footer__image-social__item">
+                    <img src="./assets/Img/Footer_img/Image2.png" alt="" />
+                  </div>
+                  <div class="footer__image-social__item">
+                    <img src="./assets/Img/Footer_img/Image3.png" alt="" />
+                  </div>
+                  <div class="footer__image-social__item">
+                    <img src="./assets/Img/Footer_img/Image1.png" alt="" />
+                  </div>
+                  <div class="footer__image-social__item">
+                    <img src="./assets/Img/Footer_img/Image4.png" alt="" />
+                  </div>
+                  <div class="footer__image-social__item">
+                    <img src="./assets/Img/Footer_img/Image1.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <div class="grid wide">
+            <div class="row">
+              <div class="col l-12 m-12 c-12">
+                <div class="footer__copyright-heading">
+                  <h3>
+                    Copyright ©2021 All rights reserved | This template is made
+                    with <i class="far fa-heart" style="color: var(--color-link);"></i> by <a href="">Hữu Hoài</a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- Slick script -->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./assets/Js/main.js"></script>
+  </body>
+</html>
